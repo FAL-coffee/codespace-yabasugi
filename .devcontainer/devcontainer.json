@@ -1,5 +1,9 @@
 {
   "image": "mcr.microsoft.com/devcontainers/universal:2",
+  "extensions": [
+    "svipas.prettier-plus",
+    "dbaeumer.vscode-eslint",
+  ],
   "settings": {
     "files.trimTrailingWhitespace": true,
     "editor.formatOnSave": true,
@@ -9,15 +13,7 @@
     "[typescriptreact]": {
         "editor.defaultFormatter": "svipas.prettier-plus"
     },
-    "[typescript]": {
-        "editor.defaultFormatter": "svipas.prettier-plus"
-    },
   },
-  "extensions": [
-    "eamodio.gitlens",
-    "svipas.prettier-plus",
-    "dbaeumer.vscode-eslint",
-  ],
   "hostRequirements": {
     "cpus": 4
   },
